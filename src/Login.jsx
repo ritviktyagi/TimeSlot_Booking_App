@@ -11,8 +11,9 @@ function Login() {
   const [passwordError, setPasswordError] = useState('');
   const navigate = useNavigate();
 
-  const handleLogin = () => {
+  const handleLogin = (e) => {
     // Basic email validation
+    e.preventDefault()
     if (!email || !/^\S+@\S+\.\S+$/.test(email)) {
       setEmailError('Invalid email address');
       return;
@@ -46,9 +47,9 @@ function Login() {
             setPassword('');
           }
         }
-        if(!exist){
-          toast.error("User not registered!")
-        }
+      }
+      if(!exist){
+        toast.error("User not registered!")
       }
   }
     // Reset error messages
