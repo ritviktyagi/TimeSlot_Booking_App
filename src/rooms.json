@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Meeting Room 1",
+    "status": "All Slots Free"
+  },
+  {
+    "id": 2,
+    "name": "Meeting Room 2",
+    "status": "All Slots Free"
+  },
+  {
+    "id": 3,
+    "name": "Meeting Room 3",
+    "status": "All Slots Free"
+  },
+  {
+    "id": 4,
+    "name": "Meeting Room 4",
+    "status": "All Slots Free"
+  }
+]
