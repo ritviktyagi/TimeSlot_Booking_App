@@ -1,6 +1,6 @@
 # Running App Link
 https://verlynk-task.vercel.app/
-Paste the above link in the browser to see the running version of the app.
+Paste this link in the browser to see the running version of the app.
 
 # Getting Started with Create React App
 
